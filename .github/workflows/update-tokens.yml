@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
 
       - name: Create input JSON
         id: create-json
@@ -24,10 +25,10 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
       
       - name: Build
-        run: npm run build
+        run: pnpm run build
 
       - name: Create PR 
         uses: peter-evans/create-pull-request@v4

@@ -1,0 +1,80 @@
+{
+  "color": {
+    "white": {
+      "description": "",
+      "type": "color",
+      "value": "#ffffffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:7da21507c1b83d21b15d3eaf2f58ef4e9da8ce76,",
+          "exportKey": "color"
+        }
+      }
+    },
+    "gray": {
+      "400": {
+        "description": "",
+        "type": "color",
+        "value": "#c1c1c4ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:19b6f27e0c8a85ab05cc30f77e78ebda75185b81,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "500": {
+        "description": "",
+        "type": "color",
+        "value": "#50505cff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:33a42ebdee69da71f7811fb77bfba483a09a11c4,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "600": {
+        "description": "",
+        "type": "color",
+        "value": "#1c1c1fff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:6e08daecda3073a73c9a6bd4a1e099e51fd0a33c,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "900": {
+        "description": "",
+        "type": "color",
+        "value": "#121214ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:f7044e25ce63f93737401b41f1803861bc77d7b9,",
+            "exportKey": "color"
+          }
+        }
+      }
+    },
+    "purple": {
+      "500": {
+        "description": "",
+        "type": "color",
+        "value": "#8b5cf6ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:f4ffb9479f264c5582e580932c206fb98ab81f5c,",
+            "exportKey": "color"
+          }
+        }
+      }
+    }
+  }
+}

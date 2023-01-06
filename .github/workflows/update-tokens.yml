@@ -10,7 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
-
+        with:
+          version: 7
+          
       - name: Create input JSON
         id: create-json
         uses: jsdaniell/create-json@1.1.2
